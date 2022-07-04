@@ -93,16 +93,12 @@ h1{
     text-align: justify;
     margin: auto;
     border-left: 5px solid salmon;
-    margin-top: -45px;
-    margin-left: 5%;
-    margin-right: 5%;
+   
    
 }
 
 .exp-area1 {
     width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
     background-color: white;
     color: black;
     padding: 20px;
@@ -110,13 +106,14 @@ h1{
     text-align: justify;
     margin: auto;
     border-left: 5px solid blue;
-    margin-top: -45px;
+    
    
 }
 
 .exp-item{
     background-image: url(image/images/exp-bg.png);
         background-repeat: no-repeat;
+        background-position: left;
         
 }
 .my-exp{
