@@ -22,7 +22,7 @@ h1{
     font-size: 18px;
 }
 
-section{
+.flexible-container{
     display: flex;
     width: 100%;
    
@@ -81,8 +81,6 @@ section{
 
 .experiences{
     width: 100%;
-    background-image: url(image/images/exp-bg.png);
-    background-repeat: no-repeat;
    
 }
 
@@ -90,26 +88,40 @@ section{
     width: 40%;
     background-color: white;
     color: black;
-    padding: 30px;
+    padding: 20px;
     box-shadow: 10px 5px 56px 5px  gray;
     text-align: justify;
     margin: auto;
     border-left: 5px solid salmon;
+    margin-top: -45px;
+    margin-left: 5%;
+    margin-right: 5%;
+   
 }
 
 .exp-area1 {
     width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
     background-color: white;
     color: black;
-    padding: 30px;
+    padding: 20px;
     box-shadow: 10px 5px 56px 5px gray;
     text-align: justify;
     margin: auto;
     border-left: 5px solid blue;
+    margin-top: -45px;
+   
 }
 
+.exp-item{
+    background-image: url(image/images/exp-bg.png);
+        background-repeat: no-repeat;
+        
+}
 .my-exp{
     font-size: 40px;
+    margin-bottom: 100px;
 }
 .font-title{
     font-size: 40px;
